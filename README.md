@@ -1,16 +1,14 @@
-# Restaurant List
-使用Node.js與Express建立一個簡單的餐廳網站。
+# Generate Trash Talk
+使用Node.js與Express建立一個簡單的垃圾化產生器。
 ## Features
-1.使用者可以瀏覽所有餐廳。
-2.使用者可以使用關鍵字搜尋餐廳。
-3.使用者可以點擊餐廳查看更多詳細資料。
+1.使用者可以選擇職業產生出不同的垃圾話。
 ## Environment Setup
 Node.js
 ## Executing
 1.使用git或cmd，Clone此專案到本機電腦
-<pre><code>git clone https://github.com/steven610381/RestaurantList.git</pre></code>
+<pre><code>git clone https://github.com/steven610381/trash_talk_generator.git</pre></code>
 2.打開終端機切換到restaurant資料夾
-<pre><code>cd RestaurantList</pre></code>
+<pre><code>cd trash_talk_generator</pre></code>
 3.安裝相關套件
 <pre><code>npm install</pre></code>
 4.輸入下列指令
