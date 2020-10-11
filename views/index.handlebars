@@ -1,0 +1,46 @@
+<h1>你想對誰說幹話</h1>
+<form method="POST" action="/">
+  <div class="container-fluid">
+    <div class="row justify-content-around">
+      <div class="col-sm-3 profession">
+        <img src="/img/angry-developer.jpg" alt="developer">
+        <div class="form-check text-center">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" name="developer"
+            {{#if options.developer}}checked{{/if}}>
+          <label class="form-check-label" for="exampleCheck1">工程師</label>
+        </div>
+      </div>
+
+      <div class="col-sm-3 profession">
+        <img src="/img/angry-designer.jpg" alt="designer">
+        <div class="form-check text-center">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" name="designer"
+            {{#if options.designer}}checked{{/if}}>
+          <label class="form-check-label" for="exampleCheck1">設計師</label>
+        </div>
+      </div>
+
+      <div class="col-sm-3 profession">
+        <img src="/img/angry-founder.jpg" alt="founder">
+        <div class="form-check text-center">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" name="founder"
+            {{#if options.founder}}checked{{/if}}>
+          <label class="form-check-label" for="exampleCheck1">創業家</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container generator">
+    <div class="row">
+      <div class="col-sm-3">
+        <button type="submit" class="btn btn-primary">產生幹話</button>
+      </div>
+      <div class="col-sm-9 result">
+        {{#if trashTalk}}
+        {{trashTalk}}
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</form>
