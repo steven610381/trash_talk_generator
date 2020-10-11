@@ -7,7 +7,7 @@ Node.js
 ## Executing
 1.使用git或cmd，Clone此專案到本機電腦
 <pre><code>git clone https://github.com/steven610381/trash_talk_generator.git</pre></code>
-2.打開終端機切換到restaurant資料夾
+2.打開終端機切換到trash talk資料夾
 <pre><code>cd trash_talk_generator</pre></code>
 3.安裝相關套件
 <pre><code>npm install</pre></code>
